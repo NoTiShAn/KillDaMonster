@@ -48,7 +48,7 @@ function setup(){
    superman = new Superman(320,200,45);
     
 
-    thread = new Thread(superman.body,{x:489, y:70});
+    thread = new Thread(thread.body,{x:489, y:70});
     
 }
 
